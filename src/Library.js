@@ -30,7 +30,7 @@ function addBook(library, book) {
 function checkoutBook (library, book, genre) {
   //console.log(library['shelves'][genre])
   library['shelves'][genre].pop(book)
-  return("You have now checked out ${title} from ${library.name}")
+  return(`You have now checked out ${title} from ${library.name}`)
 };
 
 module.exports = {
